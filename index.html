@@ -1,52 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto Kenzie</title>
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/reset.css">
-</head>
-<body>
-    <header>
-        <a href="index.html"><img src="assets/logo-kenziefestival.png" alt="Logo Kenzie"></a>
-        <nav class="menu">
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/reset.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="flex-box">
+          <a href="index.html" class="logo"
+            ><img src="assets/logo-kenziefestival.png" alt="Logo Kenzie"
+          /></a>
+          <nav class="menu">
             <ul>
-                <li>
-                    <a href="index.html#sobre">Sobre</a>
-                </li>
+              <li>
+                <a href="index.html#sobre">Sobre</a>
+              </li>
             </ul>
             <a href="carrinho.html" class="btn outline">Quero o meu ingresso</a>
             <button>
-                <img src="assets/darkmode.png" alt="Dark Mode">
+              <img src="assets/darkmode.png" alt="Dark Mode" />
             </button>
-        </nav>
+          </nav>
+        </div>
+      </div>
     </header>
-
     <section id="principal">
-        <img src="assets/pato-pq.png" alt="Pato de borracha">
-        <h1 class="title one"><span class="blue-text">&lt;Dev/&gt;</span> Festival</h1>
-        <a href="https://kenzie.com.br" target="_blank" class="btn solid">Quero meu ingresso!</a>
-        <img src="assets/mocaouvindomusica.png" alt="Moça ouvindo música">
+      <div class="container">
+        <div class="flex-box">
+          <div class="left">
+            <img src="assets/pato-pq.png" alt="Pato de borracha" />
+            <h1 class="title one">
+              <span class="blue-text">&lt;Dev/&gt;</span> Festival
+            </h1>
+            <div class="pad30-top">
+                <a href="https://kenzie.com.br" target="_blank" class="btn solid"
+                  >Quero meu ingresso!</a
+                >
+            </div>
+          </div>
+          <div class="right">
+            <img src="assets/mocaouvindomusica.png" alt="Moça ouvindo música" />
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="sobre">
-        <img src="assets/mocaouvindomusica2.png" alt="Moça ouvindo música 2">
-        <h2 class="title two">Sobre o Festival</h2>
-        <div class="content-box">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis ipsam quos temporibus nam eum exercitationem repellendus laboriosam laborum expedita! Debitis sapiente reiciendis repudiandae quibusdam ullam laudantium magni cumque amet possimus.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus praesentium delectus qui itaque ducimus placeat error illo iure nulla corporis non eos harum illum minus saepe, ut debitis quibusdam obcaecati!</p>
+      <div class="container">
+        <div class="flex-box">
+          <div class="left">
+            <img
+              src="assets/mocaouvindomusica2.png"
+              alt="Moça ouvindo música 2"
+            />
+          </div>
+          <div class="right">
+            <h2 class="title two pad30-bottom">Sobre o Festival</h2>
+            <div class="content-box">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Blanditiis ipsam quos temporibus nam eum exercitationem
+                repellendus laboriosam laborum expedita! Debitis sapiente
+                reiciendis repudiandae quibusdam ullam laudantium magni cumque
+                amet possimus.
+              </p>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Accusamus praesentium delectus qui itaque ducimus placeat error
+                illo iure nulla corporis non eos harum illum minus saepe, ut
+                debitis quibusdam obcaecati!
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="artistas">
-        <h2 class="title two">Artistas</h2>
-        <ul>
-            <li><img src="assets/artista1.png" alt="Artista 1"></li>
-            <li><img src="assets/artista2.png" alt="Artista 2"></li>
-            <li><img src="assets/artista3.png" alt="Artista 3"></li>
+      <div class="container">
+        <h2 class="title two center pad30-bottom">Artistas</h2>
+        <ul class="artists-list">
+          <li><img src="assets/artista1.png" alt="Artista 1" /></li>
+          <li><img src="assets/artista2.png" alt="Artista 2" /></li>
+          <li><img src="assets/artista3.png" alt="Artista 3" /></li>
+          <li><img src="assets/artista1.png" alt="Artista 1" /></li>
+          <li><img src="assets/artista2.png" alt="Artista 2" /></li>
+          <li><img src="assets/artista3.png" alt="Artista 3" /></li>
         </ul>
+      </div>
     </section>
-</body>
+  </body>
 </html>

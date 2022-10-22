@@ -3,6 +3,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 a {
@@ -13,4 +14,8 @@ button {
     cursor: pointer;
     background-color: transparent;
     border: none;
+}
+
+img {
+    max-width: 100%;
 }

@@ -9,29 +9,39 @@
     <link rel="stylesheet" href="style/reset.css">
 </head>
 <body>
-    <header>
-        <a href="index.html"><img src="assets/logo-kenziefestival.png" alt="Logo Kenzie"></a>
-        <nav>
-            <ul>
+    <header id="header">
+        <div class="container">
+          <div class="flex-box">
+            <a href="index.html" class="logo"
+              ><img src="assets/logo-kenziefestival.png" alt="Logo Kenzie"
+            /></a>
+            <nav class="menu">
+              <ul>
                 <li>
-                    <a href="index.html#sobre">Sobre</a>
+                  <a href="index.html#sobre">Sobre</a>
                 </li>
-            </ul>
-            <a href="carrinho.html" class="btn outline">Quero o meu ingresso</a>
-            <button>
-                <img src="assets/darkmode.png" alt="Dark Mode">
-            </button>
-        </nav>
-    </header>
-    <section id="finalizacao">
-        <h1 class="title two">Compra realizada com sucesso!</h1>
-        <div>
-            <h2 class="title two">José da Silva</h2>
-            <p class="title three">josedasilva123@email.com.br</p>
-            <div class="title threehalf">Ingresso para 3 pessoas</div>
-            <img src="assets/patodechapeu.png" alt="Pato de chapéu">
+              </ul>
+              <a href="carrinho.html" class="btn outline">Quero o meu ingresso</a>
+              <button>
+                <img src="assets/darkmode.png" alt="Dark Mode" />
+              </button>
+            </nav>
+          </div>
         </div>
-        <a href="index.html" class="btn outline">Retornar ao início</a>
+      </header>
+    <section id="finalizacao">
+        <div class="container">
+            <div class="flex-box">
+                <h1 class="title two">Compra realizada com sucesso!</h1>
+                <div class="ticket">
+                    <h2 class="title two">José da Silva</h2>
+                    <p class="title three">josedasilva123@email.com.br</p>
+                    <div class="quantity-box"><p class="title threehalf">Ingresso para <span class="lightblue-text">3</span> pessoas</p></div>
+                    <img src="assets/patodechapeu.png" alt="Pato de chapéu">
+                </div>
+                <a href="index.html" class="btn outline">Retornar ao início</a>
+            </div>
+        </div>
     </section>
 </body>
 </html>
