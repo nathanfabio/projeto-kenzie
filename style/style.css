@@ -232,6 +232,13 @@ body {
     border: 1px solid #ffffff;
 }
 
+#finalizacao .flex-box .ticket .quantity-box p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
 #carrinho {
     padding: 50px 0;
 }
